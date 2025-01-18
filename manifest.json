@@ -1,0 +1,40 @@
+{
+  "name": "Mr.Q Ideas - Mở thẻ tín dụng SENID x VPBank",
+  "short_name": "Mở thẻ VPBank",
+  "description": "Mở thẻ tín dụng SENID x VPBank online nhanh chóng, tiện lợi chỉ với CCCD. Nhận thẻ sau 24h, miễn phí mở thẻ, miễn phí thường niên năm đầu. Tham gia hệ thống tiếp thị mạng lưới hấp dẫn.",
+  "start_url": "/?utm_source=pwa",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF5733",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile-1.webp",
+      "sizes": "480x800",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop-1.webp",
+      "sizes": "1280x800",
+      "type": "image/webp",
+      "form_factor": "wide"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
