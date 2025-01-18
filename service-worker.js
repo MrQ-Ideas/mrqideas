@@ -2,6 +2,7 @@ const CACHE_NAME = 'vpbank-cache-v2'; // Phiên bản cache (nên cập nhật m
 const urlsToCache = [
   '/',
   '/index.html',
+  'https://mrq-ideas.github.io/mrqideas/',
   'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css',
   'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css',
