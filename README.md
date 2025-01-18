@@ -1,1 +1,0 @@
-# mrqideas.senidxvpbank.github.io

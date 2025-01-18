@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mở thẻ tín dụng SENID x VPBank Online - Mr.Q Ideas</title>
+    <meta name="description" content="Mở thẻ tín dụng SENID x VPBank online nhanh chóng, tiện lợi chỉ với CCCD. Nhận thẻ sau 24h, miễn phí mở thẻ, miễn phí thường niên năm đầu. Tham gia hệ thống tiếp thị mạng lưới hấp dẫn.">
+    <meta name="keywords" content="mở thẻ tín dụng, VPBank, SENID, online, CCCD, Mr.Q Ideas, tiếp thị liên kết, miễn phí, ưu đãi">
+    <meta name="author" content="Mr.Q Ideas">
+    <meta property="og:title" content="Mở thẻ tín dụng SENID x VPBank Online - Mr.Q Ideas">
+    <meta property="og:description" content="Mở thẻ tín dụng SENID x VPBank online nhanh chóng, tiện lợi chỉ với CCCD. Nhận thẻ sau 24h, miễn phí mở thẻ, miễn phí thường niên năm đầu. Tham gia hệ thống tiếp thị mạng lưới hấp dẫn.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.webp/09f/fff?text=SENID+x+VPBank">
+    <meta property="og:url" content="YOUR_LANDING_PAGE_URL">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="https://via.placeholder.com/32x32.webp/09f/fff?text=Q">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="manifest" href="manifest.json">
+    <style>
+        /* Variables */
+        :root {
+            --primary-color: #FF5733;
+            --secondary-color: #6C757D;
+            --body-bg: #f8f9fa;
+            --text-color: #333;
+            --font-family: 'Roboto', sans-serif;
+            --animation-duration: 0.3s;
+        }
+
+        /* Mixins */
+        @mixin transition($property: all, $duration: var(--animation-duration), $timing: ease) {
+            transition: $property $duration $timing;
+        }
+
+        @mixin box-shadow($shadow...) {
+            box-shadow: $shadow;
+        }
+
+        /* Base styles */
+        body {
+            font-family: var(--font-family);
+            background-color: var(--body-bg);
+            color: var(--text-color);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            font-weight: 700;
+        }
+
+        .highlight {
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        /* Navbar */
+        .navbar {
+            @include box-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+        }
+
+        .navbar .navbar-brand img {
+            @include transition;
+        }
+
+        .navbar .nav-link {
+            font-weight: 500;
+            color: var(--text-color);
+            @include transition;
+        }
+
+        .navbar .nav-link:hover,
+        .navbar .nav-link.active {
+            color: var(--primary-color);
+        }
+
+        .navbar .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            padding: 10px 20px;
+            font-weight: 500;
+            border-radius: 50px;
+            @include transition;
+        }
+
+        .navbar .btn-primary:hover {
+            background-color: #d84a28;
+            border-color: #d84a28;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x800.webp/09f/fff?text=Mo+The+VPBank+Online') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 150px 0 100px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero .btn-primary {
+            font-size: 1.2rem;
+        }
+
+        .hero .img-fluid {
+            max-height: 400px;
+            animation-duration: 1s;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            padding: 80px 0;
+        }
+
+        .benefits .benefit-item {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #fff;
+            @include box-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+            @include transition(transform 0.3s ease);
+            cursor: pointer;
+        }
+
+        .benefits .benefit-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .benefits .benefit-item .icon-box {
+            margin-bottom: 20px;
+            opacity: 0.8;
+            @include transition(opacity, var(--animation-duration));
+        }
+
+        .benefits .benefit-item:hover .icon-box {
+            opacity: 1;
+        }
+
+        .benefits .benefit-item .icon-box i {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+        }
+
+        .benefits .benefit-item h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .benefits .benefit-item p {
+            font-size: 1.1rem;
+        }
+
+        /* Requirements Section */
+        .requirements {
+            padding: 80px 0;
+            text-align: center;
+            background-color: #f2f3f5;
+        }
+
+        .requirements ul {
+            list-style: none;
+            padding: 0;
+            display: inline-block;
+            text-align: left;
+        }
+
+        .requirements ul li {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .requirements ul li i {
+            color: var(--primary-color);
+            margin-right: 10px;
+        }
+
+        /* Process Section */
+        .process {
+            padding: 80px 0;
+        }
+
+        .process .process-step {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .process .process-step .icon-box {
+            position: relative;
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: var(--primary-color);
+            color: #fff;
+            margin-bottom: 20px;
+            cursor: pointer;
+            @include transition;
+        }
+
+        .process .process-step .icon-box:hover {
+            background-color: #d84a28;
+            transform: scale(1.1);
+        }
+
+        .process .process-step .icon-box .step-number {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .process .process-step .icon-box i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2rem;
+            opacity: 0;
+            @include transition;
+        }
+
+        .process .process-step:hover .icon-box i {
+            opacity: 1;
+        }
+
+        .process .process-step h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .process .process-step p {
+            font-size: 1.1rem;
+        }
+
+        /* Network Marketing Section */
+        .network-marketing {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .network-marketing .network-info {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .network-marketing .network-info p {
+            margin-bottom: 10px;
+        }
+
+        .network-marketing .form-control {
+            border-radius: 50px;
+            padding: 15px 20px;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            border: 1px solid #ced4da;
+            @include transition;
+        }
+
+        .network-marketing .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(255, 87, 51, 0.25);
+        }
+
+        .network-marketing .btn-secondary {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            @include transition;
+        }
+
+        .network-marketing .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #5a6268;
+        }
+
+        .network-marketing .alert {
+            border-radius: 50px;
+            animation: fadeInUp var(--animation-duration) ease-in-out;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--text-color);
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translate3d(0, 20px, 0);
+            }
+            to {
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 991px) {
+            .navbar .btn-primary {
+                margin-top: 10px;
+            }
+
+            .hero {
+                padding: 100px 0 80px;
+                text-align: center;
+            }
+
+            .hero .img-fluid {
+                margin-top: 30px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+            }
+
+            .benefits .benefit-item {
+                padding: 20px;
+            }
+
+            .requirements li {
+                font-size: 1rem;
+            }
+
+            .process .process-step .icon-box {
+                width: 60px;
+                height: 60px;
+            }
+
+            .process .process-step .icon-box .step-number {
+                font-size: 1.2rem;
+            }
+
+            .process .process-step .icon-box i {
+                font-size: 1.5rem;
+            }
+
+            .process .process-step h3 {
+                font-size: 1.3rem;
+            }
+
+            .network-marketing p {
+                font-size: 1rem;
+            }
+        }
+
+        /* Loading Overlay */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1050;
+        }
+
+        .loading-spinner {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid var(--primary-color);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Lazy Loaded Sections */
+        section {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        section.visible {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://via.placeholder.com/150x40.webp/09f/fff?text=Mr.Q+Ideas" alt="Mr.Q Ideas" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#benefits">Lợi ích</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#requirements">Điều kiện</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#process">Quy trình</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#network-marketing">Tiếp thị liên kết</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary ms-lg-3" onclick="window.location.href='https://sc.mfast.vn/senid?code=248756'">Mở Thẻ Ngay</button>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h1 class="animate__animated animate__fadeInDown">Mở Thẻ Tín Dụng <br> SENID x VPBank Online</h1>
+                    <p class="animate__animated animate__fadeInUp">Tiện lợi tức thì, ưu đãi ngập tràn! <br> Chỉ với CCCD, nhận thẻ sau 24h.</p>
+                    <a href="https://sc.mfast.vn/senid?code=248756" class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite">Mở Thẻ Ngay</a>
+                </div>
+                <div class="col-md-5">
+                    <img src="https://via.placeholder.com/600x400.webp/09f/fff?text=SENID+x+VPBank"
+                        srcset="https://via.placeholder.com/300x200.webp/09f/fff?text=SENID+x+VPBank 300w,
+                                https://via.placeholder.com/600x400.webp/09f/fff?text=SENID+x+VPBank 600w,
+                                https://via.placeholder.com/900x600.webp/09f/fff?text=SENID+x+VPBank 900w"
+                        sizes="(max-width: 600px) 300px,
+                                (max-width: 900px) 600px,
+                                900px"
+                         alt="Mở thẻ tín dụng SENID x VPBank" class="img-fluid animate__animated animate__fadeInRight" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeIn">Lợi Ích Khi Mở Thẻ</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-item animate__animated animate__fadeInLeft" data-bs-toggle="tooltip" data-bs-placement="top" title="Hoàn thành các bước mở thẻ online nhanh chóng">
+                        <div class="icon-box">
+                            <i class="fas fa-laptop fa-2x"></i>
+                        </div>
+                        <h3>Quy Trình Online</h3>
+                        <p>Hoàn toàn trực tuyến, hoàn thành trong 30 phút.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-item animate__animated animate__fadeInUp" data-bs-toggle="tooltip" data-bs-placement="top" title="Không cần chứng minh thu nhập hay các giấy tờ phức tạp">
+                        <div class="icon-box">
+                            <i class="fas fa-id-card fa-2x"></i>
+                        </div>
+                        <h3>Chỉ Cần CCCD</h3>
+                        <p>Không yêu cầu chứng từ phức tạp.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-item animate__animated animate__fadeInRight" data-bs-toggle="tooltip" data-bs-placement="top" title="Miễn phí mở thẻ và phí thường niên năm đầu tiên">
+                        <div class="icon-box">
+                            <i class="fas fa-money-bill fa-2x"></i>
+                        </div>
+                        <h3>Miễn Phí</h3>
+                        <p>Miễn phí mở thẻ, miễn phí thường niên năm đầu.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-item animate__animated animate__fadeInLeft" data-bs-toggle="tooltip" data-bs-placement="top" title="Thanh toán tại hơn 30 triệu điểm chấp nhận thẻ VISA trên toàn thế giới">
+                        <div class="icon-box">
+                            <i class="fas fa-globe fa-2x"></i>
+                        </div>
+                        <h3>Chấp Nhận Toàn Cầu</h3>
+                        <p>Áp dụng tại hơn 30 triệu điểm thanh toán VISA.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-item animate__animated animate__fadeInDown" data-bs-toggle="tooltip" data-bs-placement="top" title="Rút tiền mặt dễ dàng tại ATM VPBank hoặc ngân hàng có biểu tượng VISA/MasterCard/JCB">
+                        <div class="icon-box">
+                            <i class="fas fa-credit-card fa-2x"></i>
+                        </div>
+                        <h3>Rút Tiền Mặt</h3>
+                        <p>Tại ATM VPBank hoặc ngân hàng có VISA/MasterCard/JCB.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-item animate__animated animate__fadeInRight" data-bs-toggle="tooltip" data-bs-placement="top" title="Hưởng ưu đãi miễn lãi suất lên đến 45 ngày">
+                        <div class="icon-box">
+                            <i class="fas fa-percent fa-2x"></i>
+                        </div>
+                        <h3>Miễn Lãi 45 Ngày</h3>
+                        <p>Chi tiêu miễn lãi tối đa 45 ngày.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 offset-lg-4">
+                    <div class="benefit-item animate__animated animate__fadeInUp" data-bs-toggle="tooltip" data-bs-placement="top" title="Trả góp linh hoạt với kỳ hạn 3, 6, 9, 12 tháng">
+                        <div class="icon-box">
+                            <i class="fas fa-calendar-alt fa-2x"></i>
+                        </div>
+                        <h3>Trả Góp Linh Hoạt</h3>
+                        <p>Kỳ hạn trả góp từ 3 đến 12 tháng.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Section -->
+    <section id="requirements" class="requirements">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeIn">Điều Kiện Mở Thẻ</h2>
+            <ul class="animate__animated animate__fadeIn">
+                <li><i class="fas fa-user-check" data-bs-toggle="tooltip" data-bs-placement="top" title="Công dân Việt Nam"></i> Từ đủ <span id="ageRequirement" data-age="18">18</span> tuổi trở lên.</li>
+                <li><i class="fas fa-money-check-alt" data-bs-toggle="tooltip" data-bs-placement="top" title="Thu nhập hàng tháng"></i> Thu nhập tối thiểu <span class="highlight">4.5 triệu/tháng</span>.</li>
+                <li><i class="fas fa-map-marker-alt" data-bs-toggle="tooltip" data-bs-placement="top" title="Nơi cư trú"></i> Sinh sống tại các tỉnh VPBank hỗ trợ.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeIn">Quy Trình Mở Thẻ</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="process-step animate__animated animate__fadeInLeft">
+                        <div class="icon-box">
+                            <span class="step-number">1</span>
+                            <i class="fas fa-hand-pointer"></i>
+                        </div>
+                        <h3>Bước 1</h3>
+                        <p>Bấm vào nút "Mở Thẻ Ngay" trên website.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-step animate__animated animate__fadeInUp">
+                        <div class="icon-box">
+                            <span class="step-number">2</span>
+                            <i class="fas fa-edit"></i>
+                        </div>
+                        <h3>Bước 2</h3>
+                        <p>Nhập thông tin cá nhân để kiểm tra điều kiện.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-step animate__animated animate__fadeInRight">
+                        <div class="icon-box">
+                            <span class="step-number">3</span>
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>Bước 3</h3>
+                        <p>Hoàn thành các hướng dẫn tiếp theo để nhận thẻ.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Network Marketing Section -->
+    <section id="network-marketing" class="network-marketing">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeIn">Tham Gia Hệ Thống Tiếp Thị Mạng Lưới</h2>
+            <p class="animate__animated animate__fadeIn">
+                Kiếm thêm thu nhập hấp dẫn khi giới thiệu mở thẻ tín dụng SENID x VPBank. Nhận ngay <span class="highlight">250.000 VNĐ</span> cho mỗi lượt giới thiệu thành công!
+            </p>
+            <div class="animate__animated animate__fadeIn network-info">
+                <p><b>Hoa hồng hiện tại:</b> <span id="commission" data-commission="0">0</span> VNĐ</p>
+                <p><b>Số người đã giới thiệu:</b> <span id="referrals">0</span> người</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 animate__animated animate__fadeIn">
+                    <div class="input-group mb-3">
+                        <input type="text" id="referralName" class="form-control form-control-lg" placeholder="Họ và tên" required aria-label="Họ và tên" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nhập họ và tên của bạn">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="tel" id="referralPhone" class="form-control form-control-lg" placeholder="Số điện thoại" pattern="[0-9]{10}" required aria-label="Số điện thoại" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nhập số điện thoại của bạn (10 chữ số)">
+                    </div>
+                    <button id="registerNetwork" class="btn btn-secondary btn-lg" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nhấn để đăng ký tham gia hệ thống">Đăng Ký Tham Gia</button>
+                    <div id="networkMessage" class="mt-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="currentYear"></span> Mr.Q Ideas. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      // Google Apps Script Web App URL with API Key
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzzMgZKfMlkxwFZNauG4E6mVTLZKTpqGPpL1BqgepYnwaVFMW3Qw6e9tW5BRX8FAy71/exec?apiKey=MrQ'; // Thay thế bằng URL và API Key của bạn
+
+      // Function to register to the network marketing system
+      async function registerToNetwork(name, phone) {
+          const formData = new FormData();
+          formData.append('action', 'register');
+          formData.append('name', name);
+          formData.append('phone', phone);
+
+          try {
+              showLoading();
+              const response = await fetch(scriptURL, { method: 'POST', body: formData });
+              const data = await response.json();
+
+              if (data.result === 'success') {
+                  document.getElementById('networkMessage').innerHTML = '<div class="alert alert-success" role="alert">Đăng ký thành công!</div>';
+                  await updateNetworkInfo();
+              } else {
+                  document.getElementById('networkMessage').innerHTML = `<div class="alert alert-danger" role="alert">Lỗi: ${data.error}</div>`;
+              }
+          } catch (error) {
+              console.error('Error:', error);
+              document.getElementById('networkMessage').innerHTML = '<div class="alert alert-danger" role="alert">Lỗi kết nối!</div>';
+          } finally {
+              hideLoading();
+          }
+      }
+
+      // Function to update network information
+      async function updateNetworkInfo() {
+          const formData = new FormData();
+          formData.append('action', 'getInfo');
+
+          try {
+              const response = await fetch(scriptURL, { method: 'POST', body: formData });
+              const data = await response.json();
+
+              if (data.result === 'success') {
+                  const commissionSpan = document.getElementById('commission');
+                  commissionSpan.textContent = data.commission.toLocaleString();
+                  commissionSpan.dataset.commission = data.commission;
+                  document.getElementById('referrals').textContent = data.referrals;
+              } else {
+                  console.error('Error:', data.error);
+              }
+          } catch (error) {
+              console.error('Error:', error);
+          }
+      }
+
+      // Event listener for the registration button
+      document.getElementById('registerNetwork').addEventListener('click', async () => {
+          const name = document.getElementById('referralName').value.trim();
+          const phone = document.getElementById('referralPhone').value.trim();
+
+          if (name && phone) {
+              await registerToNetwork(name, phone);
+          } else {
+              document.getElementById('networkMessage').innerHTML = '<div class="alert alert-warning" role="alert">Vui lòng nhập đầy đủ thông tin!</div>';
+          }
+      });
+
+      // Update network info on page load
+      updateNetworkInfo();
+
+      // Smooth scrolling for anchor links
+      var scroll = new SmoothScroll('a[href*="#"]', {
+          speed: 800,
+          speedAsDuration: true,
+          easing: 'easeInOutCubic'
+      });
+
+      // Initialize Bootstrap Tooltips
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+      });
+
+      // Loading Overlay Functions
+      function showLoading() {
+          document.getElementById('loadingOverlay').style.display = 'flex';
+      }
+
+      function hideLoading() {
+          document.getElementById('loadingOverlay').style.display = 'none';
+      }
+
+            // Lazy Loading Sections with Intersection Observer (tiếp tục)
+      const sections = document.querySelectorAll('section'); // Chọn tất cả các section
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible'); // Thêm class 'visible' khi section xuất hiện
+            observer.unobserve(entry.target); // Ngừng observe section này
+          }
+        });
+      }, {
+        rootMargin: '0px 0px -200px 0px' // Observe trước khi section vào viewport 200px
+      });
+
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+
+      // PWA - Service Worker Registration
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then((registration) => {
+              console.log('Service Worker registered:', registration);
+            })
+            .catch((error) => {
+              console.error('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+</body>
+</html>
